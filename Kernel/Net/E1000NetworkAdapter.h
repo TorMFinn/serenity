@@ -24,6 +24,11 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+/**
+ * This driver supports 8255x Based Intel ethernet adapaters
+ * A few additional boards have been added
+ */
+
 #pragma once
 
 #include <AK/NonnullOwnPtrVector.h>

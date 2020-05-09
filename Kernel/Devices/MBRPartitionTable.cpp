@@ -48,6 +48,7 @@ const MBRPartitionHeader& MBRPartitionTable::header() const
 bool MBRPartitionTable::initialize()
 {
     if (!m_device->read_block(0, m_cached_header)) {
+        klog() << "MBRPartitionTable::initialize: failed to read block 0";
         return false;
     }
 

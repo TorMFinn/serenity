@@ -38,7 +38,7 @@ namespace Kernel {
 #define PATA_PRIMARY_IRQ 14
 #define PATA_SECONDARY_IRQ 15
 
-//#define PATA_DEBUG
+#define PATA_DEBUG
 
 #define ATA_SR_BSY 0x80
 #define ATA_SR_DRDY 0x40
