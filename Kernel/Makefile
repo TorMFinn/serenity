@@ -75,6 +75,7 @@ OBJS = \
     KSyms.o \
     Lock.o \
     Net/E1000NetworkAdapter.o \
+    Net/E100NetworkAdapter.o \
     Net/IPv4Socket.o \
     Net/LocalSocket.o \
     Net/LoopbackAdapter.o \
